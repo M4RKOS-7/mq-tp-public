@@ -98,7 +98,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-image: repeating-linear-gradient(45deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(135deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),linear-gradient(135deg, hsl(49,0%,3%),hsl(49,0%,3%));
+    background-image: repeating-linear-gradient(45deg, rgb(3, 3, 3) 0px, rgb(3, 3, 3) 113px,rgb(15, 15, 15) 113px, rgb(15, 15, 15) 226px);
 }
 .prod_tittle{
     width: 100%;
@@ -222,7 +222,7 @@
     min-width: 250px;
     width: 15%;
     padding: 4%;
-    height: 40vh;
+    height: 20vh;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Kanit', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: aliceblue;
 }
 .preg_1{
@@ -371,6 +371,7 @@ iframe{
     }
     .preg_div{
         width: 40%;
+        font-size: 1.3em;
     }
     /* FOOTER */
     .contacto{
@@ -421,13 +422,7 @@ iframe{
         font-size: 2em;
     }
     .prod_div:hover{
-        scale: 1.05;
-        background: rgba(255, 255, 255, 0.49);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5.3px);
-        -webkit-backdrop-filter: blur(5.3px);
-        border: 1px solid rgba(255, 255, 255, 0.99);
+        scale: 1.1;
     }
     .prod_boton:hover{
         background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
@@ -494,5 +489,6 @@ iframe{
     }
     .preg_div{
         width: 15%;
+        font-size: 1.4em;
     }
 }
