@@ -35,8 +35,7 @@
     justify-content: center;
     font-size: 1em;
     font-family: 'Bebas Neue', sans-serif;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: .25px aliceblue;
+    color: aliceblue;
 }
 .nav_section ul{
     padding: 10px;
@@ -63,8 +62,7 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 5em;
     text-align: center;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: .25px aliceblue;
+    color: aliceblue;
     overflow: hidden;
 }
 .hero h2{   
@@ -179,8 +177,7 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3em;
     text-align: center;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: .25px aliceblue;
+    color: aliceblue;
     overflow: hidden;
 }
 .section_videos h2{
@@ -272,8 +269,7 @@
 .footer_tittle h2{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 4em;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: .25px aliceblue;
+    color: aliceblue;
 }
 .contacto ul{
     width: 100%;
