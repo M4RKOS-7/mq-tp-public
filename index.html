@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="duarte marcos">
+    <meta name="keywords" content="camara, celulares, auriculares, microfonos, componentes electronicos">
+    <meta name="description" content="tienda de electronica">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/img/camera_icon.png" type="image/x-icon">
+    <title>W-Tech</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_section">
+            <div class="nav_tittle">
+                <h1>w-tech</h1>
+            </div>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <!-- borre el "alt" del source y de video ya que en el validador daba error -->
+            <video muted autoplay loop class="video_hero">
+                <source src="./assets/vid/video_hero.mp4">
+            </video>
+            <h2>share your dreams</h2>
+        </section>
+        <div class="boton_volver">
+            <a href="#"><img src="./assets/img/volver_icon.png" loading="lazy" alt="volver"></a>
+        </div>
+    </header>
+    <main class="productos" id="productos">
+        <section class="prod_section">
+            <div class="prod_tittle"><h2>Tecnología al Máximo</h2></div>
+            <div class="prod_div camera_div">
+                <div class="prod_img">
+                    <img src="./assets/img/camara_png.png" alt="">
+                </div>
+                <h3>camaras</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div microphone_div">
+                <div class="prod_img">
+                    <img src="./assets/img/microphone_png.png" alt="">
+                </div>
+                <h3>microfonos</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div cellphone_div">
+                <div class="prod_img">
+                    <img src="./assets/img/cellphone_png.png" alt="">
+                </div>
+                <h3>celulares</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div headphone_div">
+                <div class="prod_img">
+                    <img src="./assets/img/headsphone_png.png" alt="">
+                </div>
+                <h3>auriculares</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div acce_div">
+                <div class="prod_img">
+                    <img src="./assets/img/accesorios_png.png" alt="">
+                </div>
+                <h3>accesorios</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div smart-watch_div">
+                <div class="prod_img">
+                    <img src="./assets/img/smart-watch_png.png" alt="">
+                </div>
+                <h3>smart-watch</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div gaming_div">
+                <div class="prod_img">
+                    <img src="./assets/img/gaming_png.png" alt="">
+                </div>
+                <h3>gaming</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+            <div class="prod_div notebooks_div">
+                <div class="prod_img">
+                    <img src="./assets/img/notebooks_png.png" alt="">
+                </div>
+                <h3>notebooks</h3>
+                <div class="prod_boton"><a href="#">ver catalogo</a></div>
+            </div>
+        </section>
+        <section class="section_videos">
+            <h2>Innovación que Ves, Sientes y Escuchas</h2>
+            <div class="video_div cat_video">
+                <video muted autoplay loop>
+                    <source src="./assets/vid/cat_video.mp4">
+                </video>
+            </div>
+            <div class="video_div mou_video">
+                <video muted autoplay loop>
+                    <source src="./assets/vid/mountains_video.mp4">
+                </video>
+            </div>
+            <div class="video_div per_video">
+                <video muted autoplay loop>
+                    <source src="./assets/vid/person_video.mp4">
+                </video>
+            </div>
+            <div class="video_div vin_video">
+                <video muted autoplay loop>
+                    <source src="./assets/vid/vinyl_video.mp4">
+                </video>
+            </div>
+        </section>
+        <section class="preguntas">
+            <div class="prod_tittle"><h2>preguntas frecuentes</h2></div>
+            <div class="preg_div preg_1">
+                <h3>Sevicio tecnico?</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, suscipit.</p>
+            </div>
+            <div class="preg_div preg_2">
+                <h3>Garantia?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, in Lorem, ipsum.</p>
+            </div>
+            <div class="preg_div preg_3">
+                <h3>Metodos de pago?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, illo.</p>
+            </div>
+            <div class="preg_div preg_4">
+                <h3>Envios?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iste!</p>
+            </div>
+        </section>
+    </main>
+    <footer class="contacto" id="contacto">
+        <div class="prod_tittle"><h2>contacto</h2></div>
+        <div class="footer_tittle">
+            <h2>W-Tech</h2>
+        </div>
+        <ul>
+            <li><a href="https://instagram.com/marcos.leon.duarte?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=marcusduarte29@gmail.com" target="_blank"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+            <li><a href="https://github.com/M4RKOS-7" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13152.888743626547!2d-58.62844209562988!3d-34.49725104822689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb59d90308d9%3A0xd2bf126d6b593368!2sDon%20Torcuato!5e0!3m2!1ses-419!2sar!4v1691180984184!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="copy"><p>&copy; 2023 Duarte Marcos</p></div>
+    </footer>
+</body>
+</html>
